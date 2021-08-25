@@ -27,13 +27,20 @@ input[type="search"]:hover {
 
 button {
     background-color: var(--bg-gray);
-    border: none;
+    border: 1px solid transparent;
     border-radius: 5px;
     color: var(--dark-gray); 
     font-size: 14px;
     text-align: center;
     padding: 8px 15px;
-    margin: 2.5px;
+    margin: 3px;
+}
+
+button:hover {
+    background-color: #f8f8f8;
+    color: black;
+    border: 1px solid var(--light-gray);
+    box-shadow: 0px 0px 1px var(--light-gray);
 }
 
 .center {
