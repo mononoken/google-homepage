@@ -1,3 +1,7 @@
+body {
+    font-family: arial;
+}
+
 input[type="search"] {
     margin: 30px;
 }
@@ -8,7 +12,11 @@ input[type="search"] {
 
 button {
     background-color: #f2f2f2;
+    border: none;
     border-radius: 5px;
+    color: rgb(110, 110, 110); 
+    font-size: 14px;
+    text-align: center;
+    padding: 8px 15px;
+    margin: 2.5px;
 }
-
-
