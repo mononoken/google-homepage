@@ -136,7 +136,16 @@ button:hover {
 /* Phone devices */
 @media only screen and (max-width: 475px) {
     footer {
+        height: 50px;
         justify-content: space-around;
         flex-wrap: wrap;
+    }
+
+    input[type="search"] {
+        width: 80%;
+    }
+
+    .search-buttons {
+        display: none;
     }
 }
