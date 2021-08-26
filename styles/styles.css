@@ -73,8 +73,8 @@ button {
     color: var(--dark-gray); 
     font-size: 14px;
     text-align: center;
-    padding: 8px 15px;
     margin: 3px;
+    padding: 8px 15px;
 }
 
 button:hover {
@@ -90,5 +90,12 @@ button:hover {
 }
 
 #sign-in {
-    
+    background-color: rgb(81, 148, 211);
+    color: white;
+    border: none;
+    border-radius: 2px;
+    box-shadow: none;
+    font-weight: bold;
+    margin: 0px;
+    padding: 6px 12px;
 }
