@@ -11,6 +11,8 @@ body {
 }
 
 header {
+    position: absolute;
+    top: 0px;
     height: 50px;
     width: 100%;
     padding: 15px 20px;
@@ -28,6 +30,34 @@ header {
 }
 
 .header-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 15px;    
+}
+
+footer {
+    position: absolute;
+    bottom: 0px;
+    height: 40px;
+    width: 100%;
+    background-color: var(--bg-gray);
+    padding: 15px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+}
+
+.footer-right {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
