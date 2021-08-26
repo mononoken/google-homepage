@@ -5,12 +5,23 @@
 }
 
 
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: arial;
 }
 
 header {
-    display: flex
+    height: 50px;
+    width: 100%;
+    padding: 10px 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .header-left {
@@ -18,11 +29,11 @@ header {
 }
 
 .header-right {
-
+    
 }
 
 a {
-
+    text-decoration: none;
 }
 
 input[type="search"] {
