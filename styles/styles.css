@@ -79,12 +79,15 @@ input[type="search"] {
     height: 42px;
     width: 420px;
     margin: 30px;
-    padding: 12px 30px;
+    padding: 20px 10px 20px 50px;
     border: 1px solid;
     border-color: var(--bg-gray);
         font-size: 14px;
     border-radius: 26px;
     color: black;
+    background-image: url('/images/search_black_24dp.svg');
+    background-position: 15px 10px;
+    background-repeat: no-repeat;
 }
 
 input[type="search"]:hover {
