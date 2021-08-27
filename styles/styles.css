@@ -85,7 +85,7 @@ input[type="search"] {
         font-size: 14px;
     border-radius: 26px;
     color: black;
-    background-image: url('/images/search_black_24dp.svg');
+    background-image: url('../images/search_black_24dp.svg');
     background-position: 15px 10px;
     background-repeat: no-repeat;
 }
